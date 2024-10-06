@@ -121,6 +121,7 @@ const VideoCompression = () => {
           backgroundColor: "white",
           padding: "40px",
           borderRadius: "20px",
+          margin: "20px",
         }}
       >
         <h1
@@ -147,7 +148,9 @@ const VideoCompression = () => {
 
         {sourceVideo && (
           <div>
-            <p>Selected: {sourceVideo.name}</p>
+            <p style={{ wordBreak: "break-word" }}>
+              Selected: {sourceVideo.name}
+            </p>
           </div>
         )}
 
